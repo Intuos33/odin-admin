@@ -136,7 +136,70 @@
 .content-container{
     margin-top: 5px;
     width: 100%;
+    height: 843px;
     padding: 2rem 3rem 0 3rem;
     background: #fee2e2;
 }
+
+.grid-container{
+    display: grid;
+    height: 730px;
+    grid-template-columns: 31% 31% 31%;
+    grid-template-rows: 30% 30% 30%;
+    margin-top: 1rem;
+    column-gap: 3rem;
+    row-gap: 1.5rem;
+}
+    
+.headers-g{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wide{
+    width: 27%;
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 5px 5px #fca5a5;
+    background: white;
+}
+
+.bar{
+    width: 10px;
+    height: 21%;
+    background: #d8b4fe;
+    border-radius: 15px 0 0 15px;
+    position: absolute;
+}
+
+.card-flex{
+    display: flex;
+    margin-left: 2rem;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.card-txt{
+    margin-top: 1rem;
+}
+
+.c-top{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.c-bot{
+    margin-top: 0.5rem;
+}
+
+.card-icons{
+    margin-bottom: 1rem;
+    align-self: flex-end;
+}
+
 
